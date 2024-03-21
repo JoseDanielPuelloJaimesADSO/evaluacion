@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 
+}
+
+html{
+    font-size: 16px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0;
+}
+
+.inner{
+    padding: 10px 50px;
+}
+
+.container{
+    width: 100%;
+    background-image: url(Proyecto\ nuevo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.nav{
+    width: 100%;
+    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+    padding: 0 30px;
+}
+.menu{
+    width: 55%;
+    padding: 15px 0;
+}
+
+ul{
+    list-style: none;
+    align-items: center;
+
+}
+
+ul li {
+    font-size: 1.2rem;
+
+}
+
+li:hover{
+    border-bottom: 2px solid #fff;
+    transition: .5;
+    cursor: pointer;
+
+}
+
+nav-btn{
+    border: none;
+    border-radius: 40px;
+    color: #111;
+    padding: 5px 20px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    cursor: pointer;
+
+}
+
+.search{
+    color: #111;
+    margin-right: 10px;
+}
+
+.banner {
+    padding: 100px 50px 50px 50px;
+}
+.logo {
+    width: 180px;
+}
+
+.banner .left {
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.banner .left h1 {
+    font-size: 10rem;
+    text-transform: capitalize;
+    font-family: 'water Brush';
+    margin-top: 25px;
+}
+
+.banner .left h2{
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 400;
+    letter-spacing: 5px;
+
+}
+
+.left .btn{
+    padding: 7px 40px;
+    border-radius: 40px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    color: #111;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.banner .left p{
+    width: 75%;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-top: 30px;
+    font-style: italic;
+    letter-spacing: 1.5px;
+}
+
+.banner .right{
+    width: 48%;
+    text-align: right;
+}
+
+.big{
+    width: 85%;
+}
+right: 0px;
+}
+
+.three-section{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 10px;
+
+}
+
+.three-section{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 10px;
+    color: #111;
+}
+
+.three-section h2 .three-section p{
+    color: #111;
+}
+
+.heading{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.heading h1{
+    text-transform: capitalize;
+    color: #111;
+    font-family: 'Dancing Script';
+    font-size: 7rem;
+    padding-left: 20px;
+
+}
+
+.heading p{
+    font-size: 1.4rem;
+    margin-top: 25px;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    
+}
+.img1{
+    width: 100%;
+}
+
+.box{
+    width: 28%;
+    margin-top: 30px;
+}
+
+.box h2{
+    font-size: 2rem;
+    margin: 15px 0;
+    
+}
+
+.box p{
+    font-size: 1.4rem;
+
+}
+
+.botto-btn{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.b-btn{
+    border: none;
+    background-color: #111;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding: 10px 45px ;
+    border-radius: 40px;
+}
+
+.four-section{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #212428;
+    color: #fff;
+  
+}
+
+.four-section h2{
+    font-family: 'Dancing Script';
+    font-size: 7rem;
+    margin-bottom: 1rem;
+}
+
+.four-section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+   
+}
+
+.more-info-btn{
+    border: none;
+    background-color: #111;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding: 10px 45px ;
+    border-radius: 40px;
+}
